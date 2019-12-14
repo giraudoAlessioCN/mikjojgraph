@@ -1,8 +1,6 @@
 """
 ---MIKJOJGRAPH---
 
-Classe per la creazione di grafi e gestione di nodi, archi e instradamento sul grafo stesso
-
 Autori: Grandolfo Michele, Isoardo Jonathan
 Data: 10/12/2019
 """
