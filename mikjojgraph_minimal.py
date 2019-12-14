@@ -70,28 +70,3 @@ class Graph:
 			numberOfNode += 1
 		graphInfinity = maxWeight * numberOfNode # Moltiplicazione tra il peso massim trovato e il numero di nodi
 		return graphInfinity
-
-print()
-
-g = Graph()
-
-g.addNode("A")
-g.addNode("B")
-g.addNode("C")
-g.addNode("D")
-g.addNode("E")
-g.addEdge("A", "B", 1)
-g.addEdge("A", "C", 2)
-g.addEdge("A", "D", 3)
-g.addEdge("B", "E", 9)
-g.addEdge("C", "E", 6)
-g.addEdge("D", "E", 2)
-
-print("g ->", g)
-print()
-
-start = "A"
-end = "E"
-cost = g.findPath(start, end)
-print(f"Il costo per andare da {start} a {end} è di {cost}")
-print()
