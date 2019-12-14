@@ -280,21 +280,3 @@ class Graph:
 
 		print(toPrint)
 		print()
-
-
-g = Graph("Grafo bello")
-g.addNode("A")
-g.addNode("B")
-g.addNode("C")
-g.addNode("D")
-g.addNode("E")
-g.addEdge("A", "B", 1)
-g.addEdge("A", "C", 2)
-g.addEdge("A", "D", 3)
-g.addEdge("B", "E", 9)
-g.addEdge("C", "E", 6)
-g.addEdge("D", "E", 2)
-
-print(g)
-
-g.printGraph_NICE()
